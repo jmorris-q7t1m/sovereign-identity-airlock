@@ -1,7 +1,3 @@
-Here is the master architectural `README.md` for your repository. It frames your two-container token airlock framework with the high-level authority of your 59-paper ecosystem under the Apache 2.0 license, while keeping your proprietary dissertation mathematics completely protected.
-
----
-
 # Sovereign Identity Airlock Framework
 
 An enterprise-grade, algorithm-agnostic, token-based identity isolation and verification framework. This repository provides a stateless, two-container architecture designed to completely eliminate identity leakage (such as PII or cleartext emails) across down-stack enterprise microservice topologies.
@@ -130,9 +126,3 @@ This framework is licensed under the Apache License, Version 2.0 (the "License")
 [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-
----
-
-
-
-Distributed under the Apache 2.0 License. See LICENSE for more information.
