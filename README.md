@@ -6,7 +6,7 @@ This framework is distributed under the **Apache License 2.0**.
 
 ```
 [ CLIENT ] ──(Raw Identifier)──► [ OPEN SOURCE GENERATOR ]
-                                           │ (Uses Abstract Cipher/PQC)
+                                           │ (Uses Abstract Cipher)
                                            ▼
 [ APPS ]   ◄───(Anonymized ID)─── [ OPEN SOURCE VALIDATOR ]
 ```
@@ -70,7 +70,7 @@ class SovereignIdentityAirlock:
 
 ### Algorithm-Agnostic Extension
 
-While the default implementation relies on strong symmetric hashing, the framework's interface contract is entirely algorithm-agnostic. Organizations deploying into quantum-threat environments can swap out the inner logic of the `.fold()` method to inject specialized **Post-Quantum Cryptography (PQC)** solutions—such as lattice-based ciphers or advanced asymmetric tokenization matrices—without changing a single line of the network or routing logic.
+The framework utilizes the **V-Fold Transpositional Lattice Protocol** (`VFoldProtocol`) to execute space-isolated, deterministic identity transformations directly at the perimeter boundary. By ingesting high-entropy context seeds directly from the secure runtime environment, the engine maps sensitive payloads into compact, URL-safe topological handles. Because the underlying interface contract is entirely decoupled from the delivery layer, organizations can adapt or scale the geometric complexity of the interior projection lattice without altering a single line of network configuration or service routing logic.
 
 ---
 
